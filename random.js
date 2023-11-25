@@ -105,7 +105,23 @@
 //Booleans & loops - part 2
 
 //1. create a variable called faveDay and assign it to your favorite day of the week
-const favDay = saturday;
 
 //2. create a loop that uses the variable favDay that you created. make a loop that will print 'i like the weekend' if 'favday' equal saturday or sunday. the loop should print 'give me a good ol weekday' if favday is equal to monday, tuesday, wednesday, thursday, or friday
 
+// for(let i = 0; i <= 7; i++){
+//     if(i === 6 || i === 7){
+//         console.log("i like the weekend")
+//     }else if(i <= 5){
+//         console.log("give me a good ol'weekday")
+//     }
+// }
+
+let fave_day = "december";
+
+if (fave_day === "Saturday" || fave_day === "Sunday") {
+  console.log("I like the weekend!");
+} else if (fave_day === "monday" || fave_day === "tuesday" || fave_day === "wednesday" || fave_day === "thursday" || fave_day === "friday") {
+    console.log("Give me a good ol weekday")
+} else {
+    console.log("That isn't a day of the week")
+}
