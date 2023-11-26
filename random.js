@@ -250,10 +250,34 @@
 //Driver's ed
 
 //1. Write a variable that will hold a person's age.
-let currentAge = 50
+// let currentAge = 50
 
-if(currentAge >= 16) {
-    console.log("Here are your keys");
-    }else if(currentAge < 15);{
-    console.log("Sorry, you're too young")
+// if(currentAge > 15) {
+//     console.log("Here are your keys");
+//     }else if(currentAge < 16){
+//     console.log("Sorry, you're too young");
+//     }
+
+
+//Just loop it
+
+//1. Write code that will print out all the numbers in the range 0 - 10.
+
+// for (let i = 0; i < 11; i++)
+// console.log(i)
+
+//2. Write code that will print out all the numbers in the range 500 - 50.
+
+// for (let o = 500; o > 50; o--)
+// console.log(o)
+
+
+
+//Lets get odd
+
+//1. Print out the odd numbers that are within the range of 1 - 100.
+
+for (let i = 0; i < 100; i++)
+    if(i % 2) {
+        console.log(i + " " + "is an odd number")
     }
