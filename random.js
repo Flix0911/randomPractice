@@ -116,12 +116,144 @@
 //     }
 // }
 
-let fave_day = "december";
+// let fave_day = "december";
 
-if (fave_day === "Saturday" || fave_day === "Sunday") {
-  console.log("I like the weekend!");
-} else if (fave_day === "monday" || fave_day === "tuesday" || fave_day === "wednesday" || fave_day === "thursday" || fave_day === "friday") {
-    console.log("Give me a good ol weekday")
-} else {
-    console.log("That isn't a day of the week")
-}
+// if (fave_day === "Saturday" || fave_day === "Sunday") {
+//   console.log("I like the weekend!");
+// } else if (fave_day === "monday" || fave_day === "tuesday" || fave_day === "wednesday" || fave_day === "thursday" || fave_day === "friday") {
+//     console.log("Give me a good ol weekday")
+// } else {
+//     console.log("That isn't a day of the week")
+// }
+
+// ---------------------------
+//Intro to loops and conditionals
+// ---------------------------
+
+//Lets get Mathy!
+
+// const a = 42.78
+// const b = 1.1
+// const c = -2
+// const d = .5
+// const e = 16
+
+//Round a down
+// aRound = Math.floor(a)
+// console.log(aRound)
+
+//Round b up
+// bUp = Math.ceil(b)
+// console.log(bUp)
+
+//Find the absolute value of b - a
+// aBAbsolute = Math.abs(a - b)
+// console.log(aBAbsolute)
+
+//Find the largest number of a, b, c, d, e
+// largestNumber = Math.max(a, b, c, d, e)
+// console.log(largestNumber)
+
+//Find the smallest number of a, b, c, d, e
+// smallestNumber = Math.min(a, b, c, d, e)
+// console.log(smallestNumber)
+
+//Find the square root of e
+// squareOfE = Math.sqrt(e)
+// console.log(squareOfE)
+
+//Raise e to the power of d
+// exponentiation = Math.pow(e, d)
+// console.log(exponentiation)
+
+//Make a digital die 0 generate a random number between 1 - 6
+// randomNumber = Math.floor(Math.random() * 6)
+// console.log(randomNumber)
+
+// ----
+//Strings Activity 1
+
+//Strings - switcharoo
+
+//1. Create a variable called firstVariable.
+//2. assign it the value of a string: "Hello World"
+
+// let firstVariable = "hello world";
+
+//3. On the next line, change the value of this variable to a number.
+// firstVariable = 10;
+
+//4. store the value of firstVariable into a new variable called secondVariable
+// let secondVariable = firstVariable;
+
+//5. On the next line, change the value of secondVariable to a string.
+// secondVariable = "a new string"
+
+//6. What is the value of firstVariable?
+
+// console.log(firstVariable)
+
+//Strings - Combine it
+
+//1. Create a variable called yourName and set it equal to your name as a string.
+// const yourName = "Erick Valencia"
+
+//2. Write an expression that takes the string "Hello, my name is " and the variable yourName so that it prints a new string with them concatenated
+// let restOfExpression = "Hello, my name is"
+// let fullGreeting = restOfExpression + " " + yourName
+
+// console.log(fullGreeting)
+// console.log(restOfExpression + ` ${yourName}`)
+
+// ----
+//Booleans Activity
+
+//Using the provided variable definitions, replace the blanks with a mathematical or boolean operator that evaluates the expression to true.
+
+// const a = 6;
+// const b = 100;
+// const c = -5;
+// const d = 3000;
+// const e = 'Jelly Bean';
+
+// a _ b;
+// console.log(a < b)
+// c _ d;
+// console.log(c < d)
+// 'Peanut' _ 'Peanut';
+// console.log('peanut' === 'peanut')
+// a _ b _ c;
+// console.log(a < b > c)
+// a _ a _ d;
+// console.log(a != a < d)
+// e _ 'Jelly Bean';
+// console.log(e === 'Jelly Bean')
+// 48 _ '48';
+// console.log(48 !== '48')
+// 'e' _ 'Eh'
+// console.log(e != 'Eh')
+
+// ----
+//The Farm
+
+//1. Write code that will print out "mooooo" if the variable animal is equal to cow.
+
+// let animal = "duck";
+
+// if (animal === 'cow') {
+//     console.log("moooo");
+    //Change your code so that if the variable animal is anything other than a cow, your should print out "Hey! You're not a cow."
+// }else if(animal ==! 'cow');{
+//     console.log("Hey! You're not a cow")
+// }
+
+//Driver's ed
+
+//1. Write a variable that will hold a person's age.
+let currentAge = 50
+
+if(currentAge >= 16) {
+    console.log("Here are your keys");
+    }else if(currentAge < 15);{
+    console.log("Sorry, you're too young")
+    }
