@@ -322,4 +322,26 @@
 
 
 
-//Fibonacci
+//Fibonacci //I don't fully understand how I would write this but feeling better
+
+
+const limit = 4000000;
+
+let sum = 0;
+let previous = 1;
+let current = 2;
+
+while (current <= limit) {
+  console.log("Current Fibonacci number:", current);
+
+  if (current % 2 === 0) {
+    sum += current; {
+  }
+}
+
+  const next = previous + current;
+  previous = current;
+  current = next;
+}
+
+console.log("Sum of even-valued terms:", sum);
