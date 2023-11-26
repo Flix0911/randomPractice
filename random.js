@@ -325,23 +325,42 @@
 //Fibonacci //I don't fully understand how I would write this but feeling better
 
 
-const limit = 4000000;
+// const limit = 4000000;
 
-let sum = 0;
-let previous = 1;
-let current = 2;
+// let sum = 0;
+// let previous = 1;
+// let current = 2;
 
-while (current <= limit) {
-  console.log("Current Fibonacci number:", current);
+// while (current <= limit) {
+//   console.log("Current Fibonacci number:", current);
 
-  if (current % 2 === 0) {
-    sum += current; {
-  }
-}
+//   if (current % 2 === 0) {
+//     sum += current; {
+//   }
+// }
 
-  const next = previous + current;
-  previous = current;
-  current = next;
-}
+//   const next = previous + current;
+//   previous = current;
+//   current = next;
+// }
 
-console.log("Sum of even-valued terms:", sum);
+// console.log("Sum of even-valued terms:", sum);
+
+
+
+//Checkerboard - makes no sense
+
+// const boardSize = 8;
+
+// for (let i = 0; i < boardSize; i++) {
+//     for (let j = 0; j < boardSize; j++) {
+//       if ((i + j) % 2 === 0) {
+//         console.log('#');
+//       } else {
+//         console.log(' ');
+//       }
+//     }
+//   }
+
+//   console.log()
+
