@@ -288,11 +288,38 @@
 
 //1. For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five.
 
-for (let i = 0; i < 100; i++)
-    if(i % 5 == 0){
-        console.log("I found a" + " " + i + "." + " High Five!")
-    } else if (i % 3 === 0){
-        console.log("I found a" + " " + i + "." + " Three is a crowd!")
-    }
+// for (let i = 0; i < 100; i++)
+//     if(i % 5 == 0){
+//         console.log("I found a" + " " + i + "." + " High Five!")
+//     } else if (i % 3 === 0){
+//         console.log("I found a" + " " + i + "." + " Three is a crowd!")
+//     }
 
 //2. Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three.
+
+
+
+//Saving Account
+
+//1. Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+
+// let sum = 0;
+// for (let i = 0; i <= 10; i++) {
+//    sum += i
+// }
+//console.log(sum)
+// let bankAccount = sum
+// console.log(bankAccount)
+
+// let sumBonus = 0;
+// for(let b = 0; b <= 100; b++) {
+//     (sumBonus += b* 2)
+// }
+
+// console.log(sumBonus)
+// let bankAccount2 = sumBonus
+// console.log(bankAccount2)
+
+
+
+//Fibonacci
