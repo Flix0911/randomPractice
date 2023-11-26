@@ -364,3 +364,81 @@
 
 //   console.log()
 
+
+
+
+
+
+
+
+// ---------------------------------------
+
+//Arrays & Conditionals
+
+//Exercises
+
+//Easy does it
+//1. Create an array that contains three quotes and store it in a variable called quotes.
+
+// const quotes = ['ask not', 'a new day', 'howdy duty']
+
+//Random
+//2. Given the following array const randomThings = [1, 10, "Hello", true]
+
+// const randomThings = [1, 10, "Hello", true]
+
+    //1. how do you access the 1st element in the array?
+// console.log(randomThings[0])
+
+    //2. Reassign the value of "Hello" to "World".
+// randomThings.splice(2, 1, "world")
+
+    //3. check the value of the array to make sure it updated the array
+// console.log(randomThings)
+
+
+//We've got class
+
+//Given the following array const ourClass = ["Stan Lee", "Zoom", "Github", "Slack"]
+// const ourClass = ["Stan Lee", "Zoom", "Github", "Slack"]
+
+    //1. What would you write to access the 3rd element of the array?
+// console.log(ourClass[2])
+
+    //2. change the value of "Github" to "Octocat"
+// ourClass.splice(2, 1, "Octocat")
+// console.log(ourClass)
+
+    //3. add a new element, "cloud City" to the array
+// ourClass.splice(4, 0, "Cloud City")
+// console.log(ourClass)
+
+//Mix it up
+
+//1. Given the following array const myArray = [5 ,10 ,500, 20]
+const myArray = [5 ,10 ,500, 20]
+
+//2.Using the push method, add the string "Egon" to the end of the array.
+
+myArray.push("Egon")
+console.log(myArray)
+
+//3. Using a method, remove the string from the end of the array.
+
+myArray.pop()
+console.log(myArray)
+
+//4. Using the unshift method, add the string "Bob Marley" to the beginning of the array
+
+myArray.unshift("Bob Marley")
+console.log(myArray)
+
+//5. Using a different method, remove the string from the beginning of the array
+
+myArray.splice(0, 1)
+console.log(myArray)
+
+//6. Use the reverse method on this array
+
+myArray.reverse()
+console.log(myArray)
