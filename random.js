@@ -442,3 +442,14 @@ console.log(myArray)
 
 myArray.reverse()
 console.log(myArray)
+
+//Biggie smalls
+//Write an if..else statement that iterates over the myArray array declared above:
+
+for (let i = 0; i < myArray.length; i++) {
+    if (myArray[i] < 21) {
+        console.log(`It seems ${myArray[i]} is less than 21`);
+    }else {
+        console.log(`It seems ${myArray[i]} is greater than 21`);
+    }
+} 
