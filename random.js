@@ -580,19 +580,88 @@
 
 //Write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting.
 
-function printGreeting(name){
-    return "Hello there, " + name
-}
+// function printGreeting(name){
+//     return "Hello there, " + name
+// }
 
-console.log(printGreeting("Slimer"))
+// console.log(printGreeting("Slimer"))
 
 //Write a function reverseWordOrder that accepts a single argument, a string. The function should return a string with the order of the words reversed. Don't worry about punctuation.
 
-function reverseWordOrder(Text){
-    newArray = Text.split(" ")
-       return newArray.reverse()
+// function reverseWordOrder(Text){
+//     newArray = Text.split(" ")
+//        return newArray.reverse()
     
-}
+// }
 
-console.log(reverseWordOrder("Ishmael me Call"));
-console.log(reverseWordOrder("I use Lâncome on my comb"));
+// console.log(reverseWordOrder("Ishmael me Call"));
+// console.log(reverseWordOrder("I use Lâncome on my comb"));
+
+
+//Calculate
+
+//1. Write a function called calculate
+
+//2. this function should take three arguments, two numbers and string
+
+//3. name the parameters num1, num2, and operation
+
+//4. If the function receives the string "add" for the operation parameter, it will return the sum of num1 and num2.
+
+//5. If the function receives the string "sub" for the operation parameter, it will return num1 minus num2.
+
+//6. Do the same thing for multiplication "mult", division "div", and exponent "exp" (where num2 is the exponent of num1).
+
+// function calculate(num1, num2, operation){
+//     if(operation === "add"){
+//         return num1 + num2
+//     }else if (operation === "sub") {
+//         return num1 - num2
+//     } else if(operation === "multi"){
+//         return num1 * num2
+//     } else if(operation === "div") {
+//         return num1 / num2
+//     }else if(operation === "exp") {
+//         return num1 ** num2
+//     }
+//     else {
+//         return "Unable to compute"
+//     }
+// }
+
+// console.log(calculate(4, 3, "exp"))
+
+// --
+
+//PrintConsecutives
+
+//1. Write a function printConsecutives that can take an array of any length, and print groups of three numbers where three consecutive numbers increase by 1.
+
+// function printConsecutives(arr) {
+//     for (let i = 0; i < arr.length - 2; i++) {
+//       if (arr[i] + 1 === arr[i + 1] && arr[i + 1] + 1 === arr[i + 2]) {
+//         console.log(`${arr[i]} ${arr[i + 1]} ${arr[i + 2]}`);
+//       }
+//     }
+//   }
+
+//   printConsecutives([1, 2, 3, 9, 8, 0, 44, 45, 46, 2, 9]);
+//   printConsecutives([0, 0, 0, -3, -2, -1, 0, 1, 2, 3]);
+//   printConsecutives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+
+// --
+//LetterReverse
+
+//1. Write a function letterReverse that accepts a single argument, a string. The function should maintain the order of words in the string but reverse the letters in each word. Don't worry about punctuation.
+
+// function letterReverse(string){
+//     newlyFormedArry = string.split(" ")
+//     return newlyFormedArry.reverse()
+// }
+
+
+function letterReverse(str) {
+    return str.split(' ').map(word => word.split('').reverse().join('')).join(' ');
+  }
+console.log(letterReverse("Luke I am your father"));
