@@ -569,3 +569,30 @@
 //       console.log(element);
 //     }
 //   }
+
+
+
+// ------------------------------------
+
+//PRoblem solving
+
+//Print greeting
+
+//Write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting.
+
+function printGreeting(name){
+    return "Hello there, " + name
+}
+
+console.log(printGreeting("Slimer"))
+
+//Write a function reverseWordOrder that accepts a single argument, a string. The function should return a string with the order of the words reversed. Don't worry about punctuation.
+
+function reverseWordOrder(Text){
+    newArray = Text.split(" ")
+       return newArray.reverse()
+    
+}
+
+console.log(reverseWordOrder("Ishmael me Call"));
+console.log(reverseWordOrder("I use Lâncome on my comb"));
